@@ -25,17 +25,17 @@ we should persist/store the logs of any coding, this is the best practice.
 
 Redirections
 ----------
-> --> by default only success output will be redirected...
-1 --> success
-2 --> Error
-& --> Both success and error
->> --> append
+> --> by default only success output will be redirected... # Example of rrrrr > output.log
+1 --> success         # Example of " rrrrr 1> output.log "                              
+2 --> Error           # Example of " rrrrr 2> output.log "
+& --> Both success and error   # Example of " rrrrr &> output.log " , cat output.log , ls -l &> output.log
+>> --> append           # Example of " rrrrr &>> output.log " , " cat output.log "
 there should be no space b/w & and >
-&>>
-
+&>> --> append both success and error   # Example of " rrrrr &>> output.log " , " cat output.log "... 
+                                         
 cat > file-name
 cat >> 
-
+Example " rm -rf  output.log "
 colors
 ------------
 31 --> red color
