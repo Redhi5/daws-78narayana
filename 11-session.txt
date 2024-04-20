@@ -40,6 +40,7 @@ Example " rm -rf  output.log "
 sudo dnf remove mysql -y
 sudo dnf remove git -y
 sudo dnf install git -y
+
 colors
 ------------
 1) To print colored text, enter the following command:
