@@ -30,7 +30,7 @@ Redirections
 2 --> Error                                                # Example of " rrrrr 2> output.log "
 & --> Both success and error                               # Example of " rrrrr &> output.log " , cat output.log , ls -l &> output.log
 >> --> append                                              # Example of " rrrrr &>> output.log " , " cat output.log "
-there should be no space b/w & and >
+there should be no space b/w "&" and ">"
 &>> --> append both success and error                      # Example of " rrrrr &>> output.log " , " cat output.log "... 
                                          
 cat > file-name
