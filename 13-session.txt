@@ -1,0 +1,15 @@
+How do yo call other scripts from shell scripts?
+-----------------------------------------------------
+2 ways
+
+1st way :
+----------
+./<scripts-name>.sh
+variable values will not change after calling other script...
+PID of two (2) script are Different
+
+2nd way :
+----------
+source ./<scripts-name>.sh
+variable values will change after calling other script...
+PID of two (2) script are Same
