@@ -8,8 +8,15 @@ How do yo call other scripts from shell scripts?
 variable values will not change after calling other script...
 PID of two (2) script are Different
 
+1. changes happened in other script will not reflected (affect) in current script..
+2. PID of two (2) script are Different..
+
+
 2nd way :
 ----------
 source ./<scripts-name>.sh
 variable values will change after calling other script...
 PID of two (2) script are Same
+
+1. changes happened in other script will be reflected in current script...
+2. PID of two (2) script are Same..
