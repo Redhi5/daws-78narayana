@@ -1,4 +1,4 @@
-How do yo call other scripts from shell scripts?
+How do you call other scripts from shell scripts?
 -----------------------------------------------------
 2 ways
 
