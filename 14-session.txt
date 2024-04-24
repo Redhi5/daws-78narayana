@@ -2,6 +2,8 @@
 2. monitor memory of the server
 3. given a doc file, count the number of each word
 
+# find . -name "*.log" -mtime +14  
+
 logs
 ---------
 1. everyday a new logfile will be created with that date.
