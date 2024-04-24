@@ -52,4 +52,4 @@ done < <(tcpdump -n -r "$pcap")
 while IFS= read -r line
 do
 	statements to execute
-done <<< input
+done <<< input                        # <<< It's a INPUT Symbles And >>> It's a OUTPUT Symbles
