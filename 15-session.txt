@@ -27,12 +27,13 @@ push vs pull
 Delhi --> Hyd
 
 1. asking DTDC office every day --> pull
-    
+
     Note: Chef and Puppet are both enterprise IT automation platforms that use a master-agent Architecture, 
     also known as a Master-Slave or PULL architecture.
 
-
 2. dont do anything, when letter comes DTDC deliver to you --> Push
+
+   Note: Ansible is a configuration management tool that uses a push architecture...
 
 pull
 ------
