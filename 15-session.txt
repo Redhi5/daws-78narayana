@@ -61,6 +61,10 @@ ansible -i 172.31.16.150, all -e ansible_user=ec2-user -e ansible_password=DevOp
 
 -b --> become root
 
+ansible -i 172.31.16.150, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m dnf -a "name=nginx state=installed" -b
+
+ansible -i 172.31.16.150, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m service -a "name=nginx state=started" -b
+
 Manually configured servers --> through commands
 Shell script --> all commands in a file, run that file one time
 
