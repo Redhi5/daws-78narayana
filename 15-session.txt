@@ -217,3 +217,10 @@ gender: male
 	  addressline-2: gandhi nagar
 	  city: bengaluru
   gender: male
+
+
+
+
+# ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 01-ping.yaml
+# .ini (INI) means Initization file and is a plain text File
+# ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 02-nginx.yaml
